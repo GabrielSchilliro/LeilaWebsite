@@ -3,7 +3,7 @@ import SectionTitle from '../sectionTitle/SectionTitle'
 
 const Testimonios = () => {
   return (
-    <div className="py-12 px-4 text-center container mx-auto">
+    <div className="py-12 px-4 text-center container mx-auto" id='testimonios'>
       <SectionTitle>Escuchá algunos testimonios</SectionTitle>
       <h2>Carrusel con testimonios</h2>
     </div>
