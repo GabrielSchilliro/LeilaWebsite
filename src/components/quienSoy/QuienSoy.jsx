@@ -7,7 +7,9 @@ const QuienSoy = () => {
   return (
     <div className='bg-gradient-to-r from-pink to-celeste'>
       <div className='container mx-auto py-12 px-4' id='quiensoy'>
-        <SectionTitle>¿Quién soy?</SectionTitle>
+        <div className='sm:text-center'>
+          <SectionTitle>¿Quién soy?</SectionTitle>
+        </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-5'>
           <div className='text-center sm:text-justify'>
             <h1 className='text-xl mt-16 mb-6'>
